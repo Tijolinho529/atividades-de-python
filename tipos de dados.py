@@ -2,4 +2,6 @@
 
 """
     Pão com mortadela
-"""  
+"""
+
+print("Olá mundo!")
