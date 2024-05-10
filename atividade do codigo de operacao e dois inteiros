@@ -1,0 +1,26 @@
+import os
+os.system("cls || clear")
+
+# Variáveis 
+operacao = str(input("Digite a operação : "))
+primeiroNumero = int(input("Digite o primeiro número : "))
+segundoNumero = int(input("Digite o segundo número : "))
+
+match(operacao):
+
+    case '+':
+        resultado = primeiroNumero + segundoNumero
+    case '-':
+        resultado = primeiroNumero - segundoNumero
+    case '*':
+        resultado = primeiroNumero * segundoNumero
+    case '/':
+        resultado = primeiroNumero / segundoNumero
+    case _:
+        print("Opção inválida")
+
+# Resultados
+print("---Resultados---")
+print(f"Primeiro número : {primeiroNumero}")
+print(f"Segundo número : {segundoNumero}")
+print(f"Resultado : {resultado}")
