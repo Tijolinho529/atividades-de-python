@@ -1,0 +1,7 @@
+import os
+os.system("cls || clear")
+
+# Variáveis
+for i in range(1,6):
+    if i % 2 == 1:
+        print(f"Número: {i}")
